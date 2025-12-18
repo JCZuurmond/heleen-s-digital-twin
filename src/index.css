@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400&display=swap');
 
 @layer base {
   :root {
     /* Main palette - soft teal/mint theme */
     --background: 174 31% 82%;
-    --foreground: 191 83% 16%;
+    --foreground: 182 62% 22%;
 
     --card: 174 31% 88%;
     --card-foreground: 191 83% 16%;
@@ -42,14 +42,14 @@
     --radius: 1rem;
 
     /* Custom colors */
-    --heading: 191 83% 31%;
+    --heading: 182 62% 22%;
     --stat-number: 191 83% 25%;
     --icon-bg: 347 79% 92%;
     --icon-stroke: 347 79% 55%;
 
     /* Typography */
-    --font-heading: 'Playfair Display', serif;
-    --font-body: 'Source Sans 3', sans-serif;
+    --font-heading: 'Montserrat', sans-serif;
+    --font-body: 'Roboto', sans-serif;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -118,6 +118,7 @@
 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
+    font-weight: 700;
   }
 }
 
