@@ -3,7 +3,7 @@ import heroIllustration from "@/assets/hero-illustration.png";
 const HeroSection = () => {
   return (
     <section className="pt-28 pb-16 md:pt-36 md:pb-24">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-8 md:px-16 lg:px-24">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className="animate-fade-up">

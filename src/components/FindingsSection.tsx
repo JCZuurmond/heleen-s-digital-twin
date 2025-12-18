@@ -8,7 +8,7 @@ const findings = [
 const FindingsSection = () => {
   return (
     <section className="py-16 md:py-24 bg-card/40">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-8 md:px-16 lg:px-24">
         <h2 className="heading-primary text-3xl md:text-4xl lg:text-5xl mb-12 animate-fade-up">
           Belangrijkste Bevindingen
         </h2>

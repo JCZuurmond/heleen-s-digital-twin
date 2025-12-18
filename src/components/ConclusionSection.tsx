@@ -3,7 +3,7 @@ import { Stethoscope, Users } from "lucide-react";
 const ConclusionSection = () => {
   return (
     <section className="py-16 md:py-24 bg-card/40">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-8 md:px-16 lg:px-24">
         <div className="max-w-5xl mx-auto">
           <h2 className="heading-primary text-3xl md:text-4xl lg:text-5xl mb-8 animate-fade-up">
             Conclusies & Toekomstige Impact

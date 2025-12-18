@@ -3,7 +3,7 @@ import { Mail, ExternalLink } from "lucide-react";
 const ContactSection = () => {
   return (
     <section className="py-16 md:py-24">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-8 md:px-16 lg:px-24">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="heading-primary text-2xl md:text-3xl lg:text-4xl mb-8 animate-fade-up">
             Samenwerken met Heleen of meer weten over Adappt?
