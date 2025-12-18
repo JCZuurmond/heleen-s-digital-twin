@@ -19,7 +19,7 @@ const Index = () => {
         <ContactSection />
       </main>
       <footer className="py-8 border-t border-border/50">
-        <div className="container mx-auto px-6 text-center text-sm text-muted-foreground">
+        <div className="container mx-auto px-8 md:px-16 lg:px-24 text-center text-sm text-muted-foreground">
           © {new Date().getFullYear()} Heleen Hendriksen
         </div>
       </footer>
